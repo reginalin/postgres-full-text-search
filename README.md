@@ -1,6 +1,6 @@
 # Dive into Postgres Full Text Search
 
-Let's learn about Postgres full text search! In this tutorial we will use some built-in Postgres features to analyze some cool wine review data from this [Kaggle dataset](https://www.kaggle.com/zynicide/wine-reviews) because wine not?
+Let's learn about Postgres full text search! In this tutorial we will use some built-in Postgres features to analyze some ~150,000 rows of wine review data from this [Kaggle dataset](https://www.kaggle.com/zynicide/wine-reviews) because wine not?
 
 By the end you:
 
