@@ -39,6 +39,8 @@ This richer search functionality is provided through preprocessing efforts. Give
 
 When configuring your Postgres database, you have the option to set up specific dictionaries, templates, and parsers, if you want something other than the default.
 
+Because of these preprocessing steps, full text search is well-equipped to handle "natural language" text.
+
 ## Trying it out
 
 Now, let's dive in and experiment with Postgres FTS.
