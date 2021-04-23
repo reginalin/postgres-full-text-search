@@ -7,8 +7,13 @@ downv:
 	docker-compose down -v --remove-orphans
 
 .PHONY: zip
-unzip:
-	zip wine-data.zip winemag-data_first150k.csv
+zip:
+	zip pgdata/wine-data.zip pgdata/winemag-data_first150k.csv
 
 .PHONY: unzip
-	unzip wine-data.zip
+unzip:
+	unzip pgdata/wine-data.zip -d pgdata
+
+.PHONY: clean
+clean:
+	rm pgdata/winemag-data_first150k.csv
